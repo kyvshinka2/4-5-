@@ -1,0 +1,63 @@
+:root {
+    --color-text: #fff;
+    --firm-color: #f9ae00;
+}
+
+/*Черный фон*/
+.header1 {
+    background: #212121;
+    color: var(--color-text);
+    font-family: Roboto,sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    position: relative;
+}
+
+/*отступы текста слева и справа*/
+.header1-text {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*Меню на черном фоне*/
+.topmenu {
+    backface-visibility: hidden;
+    background: #212121;
+  }
+  .topmenu > li {
+    display: inline-block;
+    position: relative;
+  }
+  .topmenu > li > a {
+    font-family: 'Exo 2', sans-serif;
+    height: 70px;
+    line-height: 70px;
+    padding: 0 30px;
+    font-weight: bold; /*жирный шрифт*/
+    color: var(--color-text);
+    text-decoration: none; /*убрать подчеркивание*/
+    text-transform: uppercase; /*заглавные буквы*/
+  }
+
+  #navbar {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 130px;
+  }
+
+  #navbar a {
+    background-color: #f9ae00;
+    color: rgb(0, 0, 0);
+    font-family: Roboto,sans-serif;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+  }
+  #navbar li {
+    border-left: 10px solid #666;
+    border-bottom: 1px solid #666;
+  }
+
+  
