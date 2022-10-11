@@ -3,6 +3,11 @@
     --firm-color: #f9ae00;
 }
 
+body {
+  background: #212121;
+  border-color: palevioletred;
+}
+
 /*Черный фон*/
 .header1 {
     background: #2D2B29;
@@ -11,6 +16,8 @@
     font-weight: 300;
     font-size: 16px;
     position: relative;
+    border-color: palevioletred;
+    border: 2;
 }
 
 /*отступы текста слева и справа*/
@@ -63,4 +70,13 @@
   .img1 {
     width: 100%;
     height: auto;
+  }
+
+  .footer {
+    background: #2D2B29;
+    color: var(--color-text);
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    position: relative;
   }
