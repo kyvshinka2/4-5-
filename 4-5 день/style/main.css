@@ -1,105 +1,92 @@
-:root {
-    --color-text: #fff;
-    --firm-color: #f9ae00;
-}
-
 body {
-  background: #2D2B29;
-  border-color: palevioletred;
-}
-
-/*Черный фон*/
-.header1 {
-    background: #2D2B29;
-    position: relative;
-    border-radius: 20px;
-    box-shadow: 1px 1px 2px 0px rgba(255,165,0),
-            1px 2px 4px 0px rgba(255,165,0),
-            2px 4px 8px 0px rgba(255,165,0),
-            2px 4px 16px 0px rgba(255, 153, 0, 0.7);
-    padding: 5px; //делаем красивые отступы внутри блока
-}
-
-/*отступы текста слева и справа*/
-.header1-text {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-/*Меню на черном фоне*/
-.topmenu {
-    backface-visibility: hidden;
-    background: #2D2B29;
-  }
-  .topmenu > li {
-    display: inline-block;
-    position: relative;
-  }
-  .topmenu > li > a {
-    font-family: 'Exo 2', sans-serif;
-    height: 70px;
-    line-height: 70px;
-    padding: 0 30px;
-    font-weight: bold; /*жирный шрифт*/
-    color: var(--color-text);
-    text-decoration: none; /*убрать подчеркивание*/
-    text-transform: uppercase; /*заглавные буквы*/
-  }
-
-  #navbar {
     margin: 0;
-    padding: 0;
-    list-style-type: none;
-    width: 130px;
-  }
+    background-color: #151515;
+    }
 
-  #navbar a {
-    background-color: #f9ae00;
-    color: rgb(0, 0, 0);
-    font-family: Roboto,sans-serif;
-    padding: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    display: block;
-  }
-  #navbar li {
-    border-left: 10px solid #666;
-    border-bottom: 1px solid #666;
-  }
-
-  .img1 {
-    width: 100%;
-    height: auto;
-  }
-
-  .footer {
-    background: #2D2B29;
-    color: var(--color-text);
-    font-family: Roboto, sans-serif;
-    font-weight: auto;
-    font-size: 14px;
-    position: relative;
-    border-radius: 20px;
-    box-shadow: 1px 1px 2px 0px rgba(255,165,0),
-            1px 2px 4px 0px rgba(255,165,0),
-            2px 4px 8px 0px rgba(255,165,0),
-            2px 4px 16px 0px rgba(255, 153, 0, 0.7);
-    padding: 5px; /*делаем красивые отступы внутри блока*/
-  }
-
-  .footer-text {
-    margin-left: 40px;
-    margin-right: 10px;
+.logo-content {
+    background-image: url(../img/photo.png);
+    display: flex;
+flex-direction: column;
+justify-content: center;
+height: 620px;
 }
 
- .text-osnova {
-  text-transform: uppercase;
-  position: relative;
-  width: 600px;
-  left: 400px;
-  align-content: center;
-  text-align: justify;
-  text-transform: uppercase;
-  color: #ffb300;
- }
+@media screen and (max-width: 1281px) {
+    .logo-content {
+        height: 800px;
+    }
+}
 
+@media screen and (max-width: 767px) {
+    .logo-content {
+        height: 900px;
+    }
+}
+
+@media screen and (max-width: 547px) {
+    .logo-content {
+        height: 1000px;
+    }
+}
+
+.p {
+width: 50vw;
+height: auto;
+font-family: 'PT Sans';
+font-style: normal;
+font-size: 20px;
+text-align: center;
+color: #FFFFFF;
+margin: 0 auto;
+}
+
+.header {
+    background-color: #FDB913;
+    width: 95vw;
+    margin: 0 auto;
+}
+
+.nav {
+    text-decoration: none;
+    margin: 0 15px;
+    color: #000000;
+    font-family: 'PT Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 41px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+nav {
+    text-align: center;
+    margin: 0 auto:
+}
+
+.o-nas {
+    width: 95vw;
+    margin: 0 auto;
+}
+
+.o-nas-img {
+    width: 95vw;
+    margin: 0 auto;
+    margin: 3px 12px 0px 0px;
+}
+
+.img-o-nas {
+font-family: 'PT Sans';
+font-style: normal;
+font-size: 18px;
+line-height: 41px;
+display: flex;
+align-items: top;
+text-transform: uppercase;
+color: #fdfdfd;
+
+}
+
+.first-word {
+    color: #FDB913;
+}
