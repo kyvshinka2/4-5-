@@ -141,13 +141,17 @@ margin: 0 auto;
     flex-direction: column;
     justify-content: center;
     width: 98.8vw;
-    height: 30vh;
+    height: 20vh;
     background: #393939;
     line-height: 41px;
 }
 
 .img-footer {
-    width: 30vw;
+    width: 15vw;
     height: auto;
 }
 
+.img-photo {
+    width: 95vw;
+    height: auto;
+}
