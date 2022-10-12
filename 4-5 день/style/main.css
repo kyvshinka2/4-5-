@@ -1,7 +1,9 @@
+/*оформление фона страницы*/
 body {
     margin: 0;
     background-color: #151515;
     }
+
 /*оформление логотипа с текстом в диве*/
 .logo-content {
     background-image: url(../img/photo.png);
@@ -10,7 +12,8 @@ flex-direction: column;
 justify-content: center;
 height: 620px;
 }
-/*размер лого под экраны*/
+
+/*размер логотипа и текста под экраны*/
 @media screen and (max-width: 1281px) {
     .logo-content {
         height: 800px;
@@ -62,17 +65,20 @@ margin: 0 auto;
     text-transform: uppercase;
 }
 
+/*текст в header*/
 nav {
     text-align: center;
     margin: 0 auto:
 }
 
+/*блок с описанием магазина и картинкой*/
 .o-nas {
     width: 95vw;
     margin: 0 auto;
     margin-bottom: 30px;
 }
 
+/*картинка здания, ее расположение на главной странице*/
 .o-nas-img {
     display: flex;
     flex-direction: row;
@@ -80,6 +86,7 @@ nav {
     margin: 3px 30px 0px 0px;
 }
 
+/*расположение текста рядом с картой*/
 .text-o-nas {
 font-family: 'PT Sans';
 font-style: normal;
@@ -93,10 +100,7 @@ color: #fdfdfd;
 
 }
 
-.first-word {
-    color: #FDB913;
-}
-
+/*расположение и размер карты*/
 .carta {
     width: 50vw;
     margin: 0 auto;
@@ -104,25 +108,29 @@ color: #fdfdfd;
     height: 250px;
 }
 
+/*цвет отдельных элементов в тексте*/
 .orange {
     color: #FDB913;
 }
 
+/*цвет текста*/
 .white {
     color: #ffffff;
 }
 
+/*размер картинки белой точки для адреса на всех страницах*/
 .bel {
     width: 20px;
     height: 20px;
 }
 
-
+/*размер картинки телефон на всех страница (рядом с картой)*/
 .tel {
     width: 30px;
     height: 20px;
 }
 
+/*оформление ткеста на странице contact*/
 .p-contact {
     font-family: 'PT Sans';
 font-style: normal;
@@ -136,6 +144,7 @@ width: 80vw;
 margin: 0 auto;
 }
 
+/*подвал*/
 .footer {
     display: flex;
     flex-direction: column;
@@ -145,12 +154,13 @@ margin: 0 auto;
     background: #393939;
     line-height: 41px;
 }
-
+/*расположение картинки в подвале*/
 .img-footer {
     width: 15vw;
     height: auto;
 }
 
+/*размер фотографий на странице photo.html*/
 .img-photo {
     width: 95vw;
     height: auto;
