@@ -2,7 +2,7 @@ body {
     margin: 0;
     background-color: #151515;
     }
-
+/*оформление логотипа с текстом в диве*/
 .logo-content {
     background-image: url(../img/photo.png);
     display: flex;
@@ -10,7 +10,7 @@ flex-direction: column;
 justify-content: center;
 height: 620px;
 }
-
+/*размер лого под экраны*/
 @media screen and (max-width: 1281px) {
     .logo-content {
         height: 800px;
@@ -29,6 +29,7 @@ height: 620px;
     }
 }
 
+/*оформление текста*/
 .p {
 width: 50vw;
 height: auto;
@@ -40,12 +41,14 @@ color: #FFFFFF;
 margin: 0 auto;
 }
 
+/*шапка с ссылками*/
 .header {
     background-color: #FDB913;
     width: 95vw;
     margin: 0 auto;
 }
 
+/*оформление текста (ссылки) в header*/
 .nav {
     text-decoration: none;
     margin: 0 15px;
@@ -67,7 +70,7 @@ nav {
 .o-nas {
     width: 95vw;
     margin: 0 auto;
-
+    margin-bottom: 30px;
 }
 
 .o-nas-img {
@@ -82,10 +85,11 @@ font-family: 'PT Sans';
 font-style: normal;
 font-size: 16px;
 line-height: 41px;
-display: flex;
+display: absolute;
 align-items: top;
 text-transform: uppercase;
 color: #fdfdfd;
+
 
 }
 
@@ -96,12 +100,16 @@ color: #fdfdfd;
 .carta {
     width: 50vw;
     margin: 0 auto;
-    margin: 3px 30px 0px 0px;
+    margin: 3px 30px 30px 0px;
     height: 250px;
 }
 
 .orange {
     color: #FDB913;
+}
+
+.white {
+    color: #ffffff;
 }
 
 .bel {
@@ -119,7 +127,7 @@ color: #fdfdfd;
     font-family: 'PT Sans';
 font-style: normal;
 font-size: 16px;
-line-height: 41px;
+line-height: 40px;
 display: flex;
 align-items: top;
 text-transform: uppercase;
@@ -132,13 +140,14 @@ margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-width: 100vw;
-height: 30vh;
-
-background: #393939;
+    width: 98.8vw;
+    height: 30vh;
+    background: #393939;
+    line-height: 41px;
 }
 
 .img-footer {
     width: 30vw;
     height: auto;
 }
+
