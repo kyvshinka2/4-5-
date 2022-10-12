@@ -52,7 +52,7 @@ margin: 0 auto;
     color: #000000;
     font-family: 'PT Sans';
     font-weight: 700;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 41px;
     align-items: center;
     text-align: center;
@@ -71,10 +71,10 @@ nav {
 }
 
 .o-nas-img {
-    width: 100vw;
-    height: 90vh;
-    margin: 0 auto;
-    margin: 3px 12px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    height: 750px;
+    margin: 3px 30px 0px 0px;
 }
 
 .text-o-nas {
@@ -96,10 +96,21 @@ color: #fdfdfd;
 .carta {
     width: 50vw;
     margin: 0 auto;
-    margin: 3px 50px 0px 0px;
+    margin: 3px 30px 0px 0px;
+    height: 250px;
 }
 
-.white-img {
+.orange {
+    color: #FDB913;
+}
+
+.bel {
     width: 20px;
-height: 20px;
+    height: 20px;
+}
+
+
+.tel {
+    width: 30px;
+    height: 20px;
 }
